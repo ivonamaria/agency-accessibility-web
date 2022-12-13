@@ -52,8 +52,9 @@ p {
 }
 
 
+
 .hero {
-    position: relative;
+
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -79,6 +80,42 @@ p {
     margin-left: 20px;
 }
 
+/* moved this secion further up */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+
+/* added single tag to keep the code optimazed */
+img {
+    max-height: 200px;
+}
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,24 +128,27 @@ p {
 }
 
 .benefit-lead {
+    position: relative;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    position: relative;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    position: relative;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
-} */
+}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -143,68 +183,24 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 /* Changed from 3 different classes to h2 as they all share the same code */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* changed div to footer */
-.footer {
+/* FOOTER */
+/* removed class footer and added a tag footer instead */
+footer {
+    height: 80px;
+    text-align: center;
+}
+footer p {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h3 {
+h3 {
     font-size: 16px;
 }
